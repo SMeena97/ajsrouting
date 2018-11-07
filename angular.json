@@ -20,12 +20,38 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/css",
+              "src/assets/img",
+              "src/assets/js"
             ],
             "styles": [
               "src/styles.css"
+            
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/modernizr.min.js",
+              "src/assets/js/jquery.min.js",
+		          "src/assets/js/jquery.appear.min.js",
+		          "src/assets/js/jquery.easing.min.js",
+		          "src/assets/js/jquery-cookie.min.js",
+		          "src/assets/js/bootstrap.min.js",
+		"src/assets/js/common.min.js",
+		"src/assets/js/jquery.validation.min.js",
+		"src/assets/js/jquery.easy-pie-chart.min.js",
+		"src/assets/js/jquery.gmap.min.js",
+		"src/assets/js/jquery.lazyload.min.js",
+		"src/assets/js/jquery.isotope.min.js",
+	"src/assets/js/owl.carousel.min.js",
+		"src/assets/js/jquery.magnific-popup.min.js",
+		"src/assets/js/vide.min.js",
+		"src/assets/js/theme.js",
+    "src/assets/js/view.contact.js",
+		"src/assets/js/jquery.themepunch.tools.min.js",
+		"src/assets/js/jquery.themepunch.revolution.min.js",
+		"src/assets/js/custom.js",
+		"src/assets/js/theme.init.js"
+            ]
           },
           "configurations": {
             "production": {
